@@ -1,0 +1,51 @@
+/backend/node_modules
+/frontend/node_modules
+
+/backend/package-lock.json
+/frontend/package-lock.json
+
+node_modules
+node_modules/
+node_modules/*
+
+/backend/uploads
+/backend/.env
+
+/frontend/src/configs/keys.js
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build & coverage outputs
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Prisma generated client
+/backend/prisma/generated/
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Local backup of previous Git history
+.git-backup/
+
+/mobile
+
+API_DOC.md
+BACKEND_ARCHITECTURE.md
+COUPON_POINTS_PLAN.md
+EMAIL_AUTH_SETUP.md
+PHASE_0_IMPLEMENTATION.md
+backend_pna.md
+final_login_details.md
